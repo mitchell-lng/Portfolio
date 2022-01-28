@@ -5,8 +5,8 @@
         <div class="column hero-content is-6">
           <h1 class="title">{{ githubProfile.name }}</h1>
           <h2 class="subtitle">{{ githubProfile.location }}</h2>
-          <p>{{ githubProfile.bio }}</p><br /><br />
-          <div>
+          <p>{{ githubProfile.bio }}</p>
+          <div class="my-3">
             <a class="button bd-fat-button is-black mr-1" href="https://github.com/mitchell-lng" target="_blank">
               <span class="icon">
                 <i class="fab fa-github"></i>
