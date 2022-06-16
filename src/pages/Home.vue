@@ -1,7 +1,7 @@
 <template>
   <div>
     <header class="container" id="hero">
-      <div class="columns is-8">
+      <div class="columns is-8 mx-6">
         <div class="column hero-content is-6">
           <h1 class="title">{{ githubProfile.name }}</h1>
           <h2 class="subtitle">{{ githubProfile.location }}</h2>

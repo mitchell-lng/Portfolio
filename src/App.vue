@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <navbar></navbar>
-    <router-view></router-view>
+    <div class="router">
+      <router-view></router-view>
+    </div>
     <footing></footing>
   </div>
 </template>
@@ -18,3 +20,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.router {
+  min-height: 80vh;
+}
+</style>

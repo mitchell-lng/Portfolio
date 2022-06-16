@@ -12,8 +12,9 @@
         </div>
       </div>
     </section>
+    <!--  The "uh-oh" no content found section  -->
     <header class="container" id="hero" v-else>
-      <div class="columns is-8">
+      <div class="columns is-8 mx-6">
         <div class="column hero-content is-6">
           <h1 class="title">Looks like there is nothing here.</h1>
           <h2 class="subtitle">Come check again later.</h2>
@@ -83,6 +84,8 @@ img {
 
 .img {
   width: 100%;
+  max-width: 60vw;
+  margin: auto;
   justify-content: center;
 }
 
