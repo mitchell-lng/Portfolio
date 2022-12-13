@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mitchell Long</title>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
+
+    <!-- Primary Meta Tags -->
+    <title>Mitchell Long - Portfolio</title>
+    <meta name="title" content="Mitchell Long - Portfolio">
+    <meta name="description" content="Hi! My name is Mitchell Long and I'm a full-stack developer.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.mitchelllong.com/">
+    <meta property="og:title" content="Mitchell Long - Portfolio">
+    <meta property="og:description" content="Hi! My name is Mitchell Long and I'm a full-stack developer.">
+    <meta property="og:image" content="images/HomeSS.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.mitchelllong.com/">
+    <meta property="twitter:title" content="Mitchell Long - Portfolio">
+    <meta property="twitter:description" content="Hi! My name is Mitchell Long and I'm a full-stack developer.">
+    <meta property="twitter:image" content="images/HomeSS.png">
+</head>
+
+<body>
+    <div class="loading">
+        <div class="boxes">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div>
+            <h1>Beep Boop... I'm grabbing content from the interweb.</h1>
+            <h2><i>- The Website</i></h2>
+        </div>
+    </div>
+    <button id="hamburger"><i class="fa-solid fa-bars"></i></button>
+
+    <!-- <aside style="display: none;"> -->
+    <aside>
+        <button class="close_navigation" id="close_navigation">X</button>
+        <ul>
+            <a href="https://github.com/mitchell-lng/" target="_blank">
+                <li>
+                    <i class="fa-brands fa-github"></i>
+                    <span>Github</span>
+                    </i>
+                </li>
+            </a>
+            <a href="https://www.linkedin.com/in/mitchell-long-3031521ba/" target="_blank">
+                <li>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </li>
+            </a>
+            <a href="#contact" class="close_navigation">
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Contact Me</span>
+                </li>
+            </a>
+            <a href="" download="">
+                <li>
+                    <i class="fa-solid fa-file"></i>
+                    <span>Resume</span>
+                </li>
+            </a>
+        </ul>
+    </aside>
+    <div class="body">
+        <div class="modal" style="display: none;">
+            <div>
+                <button id="close_modal">X</button>
+                <h1>Hey there...</h1>
+                <p id="error">Just a little fyi, it seems like you're not connected to the internet, this means that
+                    some of this website
+                    may not load correctly.</p>
+            </div>
+        </div>
+        <header>
+            <div>
+                <h3>Hey There!</h3>
+                <h1>My name is <span class="text-primary">Mitchell Long.</span></h1>
+                <h2>And I'm a full-stack developer.</h2>
+                <a href="#contact" class="button">Contact Me</a>
+                <a href="#content" class="down">↓</a>
+            </div>
+        </header>
+        <main>
+            <content id="content">
+                <div>
+                    <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom">My Clients</h1>
+                </div>
+                <div>
+                    <p data-aos="fade-up" data-aos-anchor-placement="top-bottom">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Mauris eu pulvinar velit, a porttitor ex.
+                        Vivamus convallis
+                        urna sollicitudin finibus vulputate. Suspendisse sed faucibus libero. Vestibulum in malesuada
+                        magna.
+                        Phasellus aliquet
+                        sapien at sapien pellentesque, vel tincidunt mauris volutpat. Aliquam pulvinar vestibulum
+                        gravida.
+                        Nunc justo ligula,
+                        bibendum vel neque non, varius efficitur turpis.
+
+                        Mauris viverra aliquet turpis, et molestie tortor eleifend vel. Cras ullamcorper, ex in
+                        malesuada
+                        auctor, enim elit
+                        porta massa, gravida viverra sem lacus malesuada metus. Nam laoreet in massa auctor mollis.
+                        Suspendisse dictum turpis a
+                        orci maximus sodales. Sed at elit diam. Ut at orci et nibh tempor sodales. Mauris euismod auctor
+                        fringilla. Morbi
+                        aliquam leo ante. Nulla pellentesque odio ut lacus lobortis tristique. Sed at tortor leo. Fusce
+                        sollicitudin urna
+                        libero, ac imperdiet neque auctor at. Integer feugiat, sapien at interdum sodales, neque nunc
+                        viverra mauris, ac maximus
+                        tortor augue at erat. Ut vel felis commodo, eleifend ex a, dignissim sem. Nam nunc felis,
+                        interdum
+                        eu ullamcorper non,
+                        blandit eu diam. Morbi placerat sem et ante cursus dictum. Fusce in congue eros.</p>
+                </div>
+            </content>
+            <div class="banner">
+                <div class="projects">
+                    <div class="project">
+                        <div class="project-content">
+                            <h1>JS Gradient Descent</h1>
+                        </div>
+                        <div class="project-footer">
+
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-content">
+                            <h1>Project #2</h1>
+                        </div>
+                        <div class="project-footer">
+
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project-content">
+                            <h1>Project #3</h1>
+                            <p>This project helped me learn how to use state management with react and helped me learn
+                                to about DJango endpoints.</p>
+                        </div>
+                        <div class="project-footer">
+                            <div class="project-links">
+                                <a href="">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="" class="flex-end">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <content>
+                <div>
+                    <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom">About</h1>
+                </div>
+                <div>
+                    <p data-aos="fade-up" data-aos-anchor-placement="top-bottom">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Mauris eu pulvinar velit, a porttitor ex.
+                        Vivamus convallis
+                        urna sollicitudin finibus vulputate. Suspendisse sed faucibus libero. Vestibulum in malesuada
+                        magna.
+                        Phasellus aliquet
+                        sapien at sapien pellentesque, vel tincidunt mauris volutpat. Aliquam pulvinar vestibulum
+                        gravida.
+                        Nunc justo ligula,
+                        bibendum vel neque non, varius efficitur turpis.
+
+                        Mauris viverra aliquet turpis, et molestie tortor eleifend vel. Cras ullamcorper, ex in
+                        malesuada
+                        auctor, enim elit
+                        porta massa, gravida viverra sem lacus malesuada metus. Nam laoreet in massa auctor mollis.
+                        Suspendisse dictum turpis a
+                        orci maximus sodales. Sed at elit diam. Ut at orci et nibh tempor sodales. Mauris euismod auctor
+                        fringilla. Morbi
+                        aliquam leo ante. Nulla pellentesque odio ut lacus lobortis tristique. Sed at tortor leo. Fusce
+                        sollicitudin urna
+                        libero, ac imperdiet neque auctor at. Integer feugiat, sapien at interdum sodales, neque nunc
+                        viverra mauris, ac maximus
+                        tortor augue at erat. Ut vel felis commodo, eleifend ex a, dignissim sem. Nam nunc felis,
+                        interdum
+                        eu ullamcorper non,
+                        blandit eu diam. Morbi placerat sem et ante cursus dictum. Fusce in congue eros.</p>
+                </div>
+                <div>
+                    <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom">Hello World</h1>
+                </div>
+                <div>
+                    <p data-aos="fade-up" data-aos-anchor-placement="top-bottom">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Mauris eu pulvinar velit, a porttitor ex.
+                        Vivamus convallis
+                        urna sollicitudin finibus vulputate. Suspendisse sed faucibus libero. Vestibulum in malesuada
+                        magna.
+                        Phasellus aliquet
+                        sapien at sapien pellentesque, vel tincidunt mauris volutpat. Aliquam pulvinar vestibulum
+                        gravida.
+                        Nunc justo ligula,
+                        bibendum vel neque non, varius efficitur turpis.
+
+                        Mauris viverra aliquet turpis, et molestie tortor eleifend vel. Cras ullamcorper, ex in
+                        malesuada
+                        auctor, enim elit
+                        porta massa, gravida viverra sem lacus malesuada metus. Nam laoreet in massa auctor mollis.
+                        Suspendisse dictum turpis a
+                        orci maximus sodales. Sed at elit diam. Ut at orci et nibh tempor sodales. Mauris euismod auctor
+                        fringilla. Morbi
+                        aliquam leo ante. Nulla pellentesque odio ut lacus lobortis tristique. Sed at tortor leo. Fusce
+                        sollicitudin urna
+                        libero, ac imperdiet neque auctor at. Integer feugiat, sapien at interdum sodales, neque nunc
+                        viverra mauris, ac maximus
+                        tortor augue at erat. Ut vel felis commodo, eleifend ex a, dignissim sem. Nam nunc felis,
+                        interdum
+                        eu ullamcorper non,
+                        blandit eu diam. Morbi placerat sem et ante cursus dictum. Fusce in congue eros.</p>
+                </div>
+                <div id="contact">
+                    <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom">Contact Me</h1>
+                </div>
+                <div>
+                    <form action="https://formbold.com/s/35W26" method="POST">
+                        <div class="form-name">
+                            <label for="name">Full Name</label>
+                            <input id="name" name="Name" placeholder="John Doe" type="text">
+                        </div>
+                        <div class="form-email">
+                            <label for="email">Email</label>
+                            <input id="email" name="Email" placeholder="jdoe@gmail.com" type="text">
+                        </div>
+                        <div class="form-reason">
+                            <label for="reason">I am looking to</label>
+                            <select name="Reason" id="reason">
+                                <option value="hire">Hire</option>
+                                <option value="questions">Ask Questions</option>
+                                <option value="collaborate">Collaborate</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-message">
+                            <label for="message">Message</label>
+                            <textarea name="message" placeholder="I really like your portfolio..."
+                                id="message"></textarea>
+                        </div>
+                        <div class="form-submit">
+                            <input type="submit" class="button" value="Submit">
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom">Projects</h1>
+                </div>
+                <!-- Projects will automatically be populated from github  -->
+                <div class="cards" id="projects"></div>
+            </content>
+        </main>
+        <footer>
+            <h1 class="title">mitchelllong.com</h1>
+            <div class="end">
+                <p id="copyright">© Copyright</p>
+                <p>All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
