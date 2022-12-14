@@ -316,7 +316,8 @@ main div.banner {
 div.projects {
     display: flex;
     flex-direction: row;
-    height: 50vh;
+    flex-wrap: wrap;
+    min-height: 50vh;
     align-items: stretch;
     justify-content: space-around;
     margin: 40px;
@@ -330,6 +331,7 @@ div.projects div.project {
     transition-duration: 400ms;
     display: flex;
     flex-direction: column;
+    min-width: 250px;
 }
 
 .project-links a {
@@ -580,6 +582,26 @@ footer .end {
 
     100% {
         transform: translateY(0%);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .cards {
+        --columns: 3;
+    }
+
+    form {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "name"
+            "email"
+            "message"
+            "reason"
+            "submit";
+    }
+
+    .form-message {
+        grid-row: span 2;
     }
 }
 
