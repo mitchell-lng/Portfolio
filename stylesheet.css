@@ -640,7 +640,8 @@ footer .end {
         margin: 0;
     }
 
-    main content>div {
+    main content>div,
+    main content form {
         padding: 20px 0;
         min-height: fit-content;
     }
