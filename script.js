@@ -84,7 +84,6 @@ $(function() {
     // Close the loading screen very nicely
     setTimeout(
         () => {
-            window.scrollTo(0, 0)
             $(".loading").addClass("close_loading");
             setTimeout(
                 () => {
