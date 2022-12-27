@@ -95,6 +95,7 @@ body {
     font-family: var(--main-font);
     background-color: var(--background);
     scroll-behavior: smooth;
+    scroll-padding-top: 20px;
 }
 
 body {
@@ -502,6 +503,7 @@ form .message select {
     padding: 12px 20px;
     width: 80%;
     position: relative;
+    margin: 0 auto;
     display: flex;
     min-height: 300px;
     flex-direction: column;
@@ -593,7 +595,7 @@ footer .end {
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1260px) {
     .cards {
         --columns: 3;
     }
@@ -617,9 +619,14 @@ footer .end {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .cards {
         --columns: 2;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cards {
         border-bottom: none;
     }
 
@@ -685,9 +692,7 @@ footer .end {
         display: block;
         margin: auto;
     }
-}
 
-@media screen and (max-width: 600px) {
     .cards {
         --columns: 2;
     }
