@@ -1,7 +1,8 @@
 :root {
     --border-color: hsla(211, 12%, 48%, 0.4);
     --background-color-values: 240, 3%, 94%;
-    --background: hsla(var(--background-color-values), 1);
+    --background: 
+        hsla(var(--background-color-values), 1);
 
     --primary-hue: 200;
     --primary-light: hsla(var(--primary-hue), 50%, 75%, 100%);
