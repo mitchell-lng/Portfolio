@@ -14,25 +14,27 @@ function cleanName(text) {
 
 // Create each of the card components
 function createProject(data) {
+    if (data.name == userName) {
+        return;
+    }
+
+    // Initialize chips
+    let chips = $("<ul class='chips'></ul>");
+
+    // Get the data for the language data
+    $.getJSON(data.languages_url, function (data) {
+        // Add each of the languages
+        $.each(data, function (key, val) {
+            chips.append($(`<li>${key}</li>`))
+        })
+    });
+
     // Create new card
     let card = $("<div data-aos='fade-up' data-aos-anchor-placement='top-bottom'></div>");
     card.addClass("card");
 
     // Add basic information
     card.append($(`<h3>${cleanName(data.name)}</h3>`));
-    let chips = $("<ul class='chips'></ul>");
-
-    $.getJSON(data.languages_url, function (data) {
-        // Guard clause to check repos without any languages
-        if (Object.keys(data).length == 0) {
-            return;
-        }
-
-        // Add each of the languages
-        $.each(data, function (key, val) {
-            chips.append($(`<li>${key}</li>`))
-        })
-    });
 
     // Add the languages to the card
     card.append(chips);
