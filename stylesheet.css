@@ -677,11 +677,11 @@ footer .end {
     .cards {
         --columns: 2;
     }
-}
 
-@media screen and (max-width: 800px) {
-    .cards {
-        border-bottom: none;
+    header div {
+        width: 70%;
+        display: block;
+        margin: auto;
     }
 
     aside ul {
@@ -694,6 +694,12 @@ footer .end {
 
     aside ul a:not(:last-child) {
         border-bottom: 1px solid var(--border-color);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cards {
+        border-bottom: none;
     }
 
     main content {
@@ -742,7 +748,7 @@ footer .end {
     }
 
     header div {
-        width: 90%;
+        width: 80%;
         display: block;
         margin: auto;
     }
